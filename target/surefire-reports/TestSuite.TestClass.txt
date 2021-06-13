@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite.TestClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 66.249 sec <<< FAILURE!
+addTocartTest(TestSuite.TestClass)  Time elapsed: 58.675 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Entered address and address in cart not maching expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at TestSuite.TestClass.addTocartTest(TestClass.java:53)
+
